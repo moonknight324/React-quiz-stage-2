@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #453b89;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.play-btn {
+  background-color: #51b034;
+  width: 240px;
+  margin-left: 42%;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.second {
+  background-color: #453b89;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.box {
+  background-color: white;
+  width: 85%;
+  height: 80%;
+  text-align: center;
+}
+
+.q-no {
+  text-align: left;
+  margin-left: 28px;
+}
+
+.question {
+  padding: 15px;
+  font-weight: 900;
+}
+
+.option-btns-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  margin: 20px;
+  width: 550px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #4d9feb;
+  color: white;
+  border: none;
+}
+
+.prev-btn {
+  margin-right: 20px;
+  margin-top: 60px;
+  padding: 10px;
+  width: 100px;
+  background-color: #4e7da7;
+  border: none;
+}
+
+.quit-btn {
+  margin-top: 60px;
+  margin-left: 20px;
+  padding: 10px;
+  width: 100px;
+  background-color: #ea3223;
+  border: none;
+}
+
+.next-btn{
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 100px;
+  margin-top: 60px;
+  background-color: #367f22;
+  border: none;
+}
+
+.third{
+  background-color: #453b89;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.res{
+  text-align: center;
+  color:  #367f22;
+}
+
+
+.result-box{
+  background-color: white;
+  width: 60%;
+  height: 55%;
+  text-align: center;
+  border-left: #8687ed 4px solid;
+  padding: 20px;
+  margin-bottom: 3%;
+
+}
+
+.txt{
+  font-weight: 900;
+}
+
+.score{
+  color: #0001f4;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button{
+  display: flex;
+}
+
+.play-again{
+  margin: 10px;
+  border: #8687ed 2px solid;
+  color: #8687ed;
+}
+
+.home{
+  margin: 10px;
+  color: #4b823f;
+  border: #4b823f 3px solid;
+}
